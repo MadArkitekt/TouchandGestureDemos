@@ -11,6 +11,12 @@
 		0D70C8661967CFA10068CF18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C8651967CFA10068CF18 /* AppDelegate.m */; };
 		0D70C8681967CFA10068CF18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D70C8671967CFA10068CF18 /* Images.xcassets */; };
 		0D70C8741967CFA10068CF18 /* PanImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C8731967CFA10068CF18 /* PanImageTests.m */; };
+		0D70C8811967D14B0068CF18 /* PanImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C8801967D14B0068CF18 /* PanImage.m */; };
+		0D70C8821967D14B0068CF18 /* PanImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C8801967D14B0068CF18 /* PanImage.m */; };
+		0D70C8851967D1690068CF18 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C8841967D1690068CF18 /* MainVC.m */; };
+		0D70C8861967D1690068CF18 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C8841967D1690068CF18 /* MainVC.m */; };
+		0D70C8881967D3BA0068CF18 /* blur@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D70C8871967D3BA0068CF18 /* blur@2x.jpg */; };
+		0D70C8891967D3BA0068CF18 /* blur@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D70C8871967D3BA0068CF18 /* blur@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,11 @@
 		0D70C8731967CFA10068CF18 /* PanImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanImageTests.m; sourceTree = "<group>"; };
 		0D70C87D1967D02A0068CF18 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		0D70C87E1967D02A0068CF18 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		0D70C87F1967D14B0068CF18 /* PanImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanImage.h; sourceTree = "<group>"; };
+		0D70C8801967D14B0068CF18 /* PanImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanImage.m; sourceTree = "<group>"; };
+		0D70C8831967D1690068CF18 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		0D70C8841967D1690068CF18 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		0D70C8871967D3BA0068CF18 /* blur@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blur@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 		0D70C8541967CFA10068CF18 = {
 			isa = PBXGroup;
 			children = (
+				0D70C8871967D3BA0068CF18 /* blur@2x.jpg */,
 				0D70C85F1967CFA10068CF18 /* PanImage */,
 				0D70C8701967CFA10068CF18 /* PanImageTests */,
 				0D70C85E1967CFA10068CF18 /* Products */,
@@ -78,6 +90,10 @@
 			children = (
 				0D70C8641967CFA10068CF18 /* AppDelegate.h */,
 				0D70C8651967CFA10068CF18 /* AppDelegate.m */,
+				0D70C8831967D1690068CF18 /* MainVC.h */,
+				0D70C8841967D1690068CF18 /* MainVC.m */,
+				0D70C87F1967D14B0068CF18 /* PanImage.h */,
+				0D70C8801967D14B0068CF18 /* PanImage.m */,
 				0D70C8671967CFA10068CF18 /* Images.xcassets */,
 				0D70C8601967CFA10068CF18 /* Supporting Files */,
 			);
@@ -192,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D70C8681967CFA10068CF18 /* Images.xcassets in Resources */,
+				0D70C8881967D3BA0068CF18 /* blur@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D70C8891967D3BA0068CF18 /* blur@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +228,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D70C8661967CFA10068CF18 /* AppDelegate.m in Sources */,
+				0D70C8851967D1690068CF18 /* MainVC.m in Sources */,
+				0D70C8811967D14B0068CF18 /* PanImage.m in Sources */,
 				0D70C8631967CFA10068CF18 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,7 +238,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D70C8861967D1690068CF18 /* MainVC.m in Sources */,
 				0D70C8741967CFA10068CF18 /* PanImageTests.m in Sources */,
+				0D70C8821967D14B0068CF18 /* PanImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

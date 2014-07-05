@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MainVC.h"
 @interface AppDelegate ()
             
 
@@ -18,7 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    UINavigationController *nc = [[UINavigationController alloc]initWithRootViewController:[[MainVC alloc]initWithNibName:nil bundle:nil]];
+    self.window.rootViewController = nc;
+    nc.navigationBarHidden = YES;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
