@@ -42,7 +42,6 @@
 		0D70C84F1967CE830068CF18 /* DragImgVw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragImgVw.h; sourceTree = "<group>"; };
 		0D70C8501967CE830068CF18 /* DragImgVw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragImgVw.m; sourceTree = "<group>"; };
 		0D70C8521967CE990068CF18 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		0D70C8531967CE990068CF18 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				0D70C8521967CE990068CF18 /* PrefixHeader.pch */,
-				0D70C8531967CE990068CF18 /* Utility.h */,
 				0D70C82E1967CE2E0068CF18 /* Info.plist */,
 				0D70C82F1967CE2E0068CF18 /* main.m */,
 			);
@@ -332,9 +330,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = /Users/ecs2120/Desktop/TouchandGestureDemos/DraggableImage/DraggableImage/PrefixHeader.pch;
 				INFOPLIST_FILE = DraggableImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5E0B89B8-FCE6-42A1-9185-F059FE9CA354";
 			};
 			name = Debug;
 		};
@@ -343,9 +343,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = /Users/ecs2120/Desktop/TouchandGestureDemos/DraggableImage/DraggableImage/PrefixHeader.pch;
 				INFOPLIST_FILE = DraggableImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5E0B89B8-FCE6-42A1-9185-F059FE9CA354";
 			};
 			name = Release;
 		};

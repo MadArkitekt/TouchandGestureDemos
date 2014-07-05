@@ -1,25 +1,3 @@
-//
-//  PrefixHeader.pch
-//  Touch And Gesture Demo
-//
-//  Created by MadArkitekt on 7/5/14.
-//  Copyright (c) 2014 The IronhEaD Initiative. All rights reserved.
-//
-
-#ifndef Touch_And_Gesture_Demo_PrefixHeader_pch
-#define Touch_And_Gesture_Demo_PrefixHeader_pch
-
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
-
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#import <Foundation/Foundation.h>
-#endif
-
-#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
-#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
-
 /*
  
  Erica Sadun, http://ericasadun.com
@@ -67,6 +45,3 @@
 
 // Set Aspect
 #define CONSTRAIN_ASPECT(VIEW, ASPECT) [VIEW addConstraint:[NSLayoutConstraint constraintWithItem:VIEW attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:VIEW attribute:NSLayoutAttributeHeight multiplier:(ASPECT) constant:0.0f]]
-
-
-#endif
