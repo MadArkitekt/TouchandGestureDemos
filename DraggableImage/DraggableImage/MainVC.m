@@ -19,7 +19,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self)
     {
-        DragImgVw *dragV = [[DragImgVw alloc]initWithImage:[UIImage imageNamed:@"blur.jpg"]];
+        DragImgVw *dragV = [[DragImgVw alloc]initWithImage:[UIImage imageNamed:@"Still_Smiling.jpg"]];
         [self.view addSubview:dragV];
     }
     return self;

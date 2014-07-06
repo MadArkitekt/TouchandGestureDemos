@@ -11,9 +11,10 @@
 		0D70C8331967CE2E0068CF18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C8321967CE2E0068CF18 /* AppDelegate.m */; };
 		0D70C8351967CE2E0068CF18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D70C8341967CE2E0068CF18 /* Images.xcassets */; };
 		0D70C8411967CE2E0068CF18 /* DraggableImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C8401967CE2E0068CF18 /* DraggableImageTests.m */; };
-		0D70C84B1967CE640068CF18 /* blur@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D70C84A1967CE640068CF18 /* blur@2x.jpg */; };
 		0D70C84E1967CE710068CF18 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C84D1967CE710068CF18 /* MainVC.m */; };
 		0D70C8511967CE830068CF18 /* DragImgVw.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C8501967CE830068CF18 /* DragImgVw.m */; };
+		0DB678FA196847E90099BE46 /* Still_Smiling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DB678F9196847E90099BE46 /* Still_Smiling.jpg */; };
+		0DB678FB196847E90099BE46 /* Still_Smiling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DB678F9196847E90099BE46 /* Still_Smiling.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +37,12 @@
 		0D70C83A1967CE2E0068CF18 /* DraggableImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DraggableImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D70C83F1967CE2E0068CF18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D70C8401967CE2E0068CF18 /* DraggableImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DraggableImageTests.m; sourceTree = "<group>"; };
-		0D70C84A1967CE640068CF18 /* blur@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blur@2x.jpg"; sourceTree = "<group>"; };
 		0D70C84C1967CE710068CF18 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
 		0D70C84D1967CE710068CF18 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
 		0D70C84F1967CE830068CF18 /* DragImgVw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragImgVw.h; sourceTree = "<group>"; };
 		0D70C8501967CE830068CF18 /* DragImgVw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragImgVw.m; sourceTree = "<group>"; };
-		0D70C8521967CE990068CF18 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0DB678F5196846460099BE46 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utility.h; path = ../../Utility.h; sourceTree = "<group>"; };
+		0DB678F9196847E90099BE46 /* Still_Smiling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Still_Smiling.jpg; path = ../Still_Smiling.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +66,7 @@
 		0D70C8211967CE2E0068CF18 = {
 			isa = PBXGroup;
 			children = (
-				0D70C84A1967CE640068CF18 /* blur@2x.jpg */,
+				0DB678F9196847E90099BE46 /* Still_Smiling.jpg */,
 				0D70C82C1967CE2E0068CF18 /* DraggableImage */,
 				0D70C83D1967CE2E0068CF18 /* DraggableImageTests */,
 				0D70C82B1967CE2E0068CF18 /* Products */,
@@ -99,7 +100,7 @@
 		0D70C82D1967CE2E0068CF18 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0D70C8521967CE990068CF18 /* PrefixHeader.pch */,
+				0DB678F5196846460099BE46 /* Utility.h */,
 				0D70C82E1967CE2E0068CF18 /* Info.plist */,
 				0D70C82F1967CE2E0068CF18 /* main.m */,
 			);
@@ -202,8 +203,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB678FA196847E90099BE46 /* Still_Smiling.jpg in Resources */,
 				0D70C8351967CE2E0068CF18 /* Images.xcassets in Resources */,
-				0D70C84B1967CE640068CF18 /* blur@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB678FB196847E90099BE46 /* Still_Smiling.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +408,7 @@
 				0D70C8461967CE2E0068CF18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D70C8471967CE2E0068CF18 /* Build configuration list for PBXNativeTarget "DraggableImageTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +417,7 @@
 				0D70C8491967CE2E0068CF18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

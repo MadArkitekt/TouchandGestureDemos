@@ -15,8 +15,7 @@
 		0D70C8821967D14B0068CF18 /* PanImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C8801967D14B0068CF18 /* PanImage.m */; };
 		0D70C8851967D1690068CF18 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C8841967D1690068CF18 /* MainVC.m */; };
 		0D70C8861967D1690068CF18 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C8841967D1690068CF18 /* MainVC.m */; };
-		0D70C8881967D3BA0068CF18 /* blur@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D70C8871967D3BA0068CF18 /* blur@2x.jpg */; };
-		0D70C8891967D3BA0068CF18 /* blur@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D70C8871967D3BA0068CF18 /* blur@2x.jpg */; };
+		0DEBB6CE1968F47100C16A87 /* blur@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DEBB6CD1968F47100C16A87 /* blur@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +38,12 @@
 		0D70C86D1967CFA10068CF18 /* PanImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D70C8721967CFA10068CF18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D70C8731967CFA10068CF18 /* PanImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanImageTests.m; sourceTree = "<group>"; };
-		0D70C87D1967D02A0068CF18 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		0D70C87E1967D02A0068CF18 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		0D70C87F1967D14B0068CF18 /* PanImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanImage.h; sourceTree = "<group>"; };
 		0D70C8801967D14B0068CF18 /* PanImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanImage.m; sourceTree = "<group>"; };
 		0D70C8831967D1690068CF18 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
 		0D70C8841967D1690068CF18 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
-		0D70C8871967D3BA0068CF18 /* blur@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blur@2x.jpg"; sourceTree = "<group>"; };
+		0DB678F4196846310099BE46 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utility.h; path = ../../Utility.h; sourceTree = "<group>"; };
+		0DEBB6CD1968F47100C16A87 /* blur@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blur@2x.png"; path = "PanImage/blur@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +67,7 @@
 		0D70C8541967CFA10068CF18 = {
 			isa = PBXGroup;
 			children = (
-				0D70C8871967D3BA0068CF18 /* blur@2x.jpg */,
+				0DEBB6CD1968F47100C16A87 /* blur@2x.png */,
 				0D70C85F1967CFA10068CF18 /* PanImage */,
 				0D70C8701967CFA10068CF18 /* PanImageTests */,
 				0D70C85E1967CFA10068CF18 /* Products */,
@@ -103,8 +101,7 @@
 		0D70C8601967CFA10068CF18 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0D70C87D1967D02A0068CF18 /* PrefixHeader.pch */,
-				0D70C87E1967D02A0068CF18 /* Utility.h */,
+				0DB678F4196846310099BE46 /* Utility.h */,
 				0D70C8611967CFA10068CF18 /* Info.plist */,
 				0D70C8621967CFA10068CF18 /* main.m */,
 			);
@@ -208,7 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D70C8681967CFA10068CF18 /* Images.xcassets in Resources */,
-				0D70C8881967D3BA0068CF18 /* blur@2x.jpg in Resources */,
+				0DEBB6CE1968F47100C16A87 /* blur@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +213,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D70C8891967D3BA0068CF18 /* blur@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +408,7 @@
 				0D70C8791967CFA10068CF18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D70C87A1967CFA10068CF18 /* Build configuration list for PBXNativeTarget "PanImageTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +417,7 @@
 				0D70C87C1967CFA10068CF18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
