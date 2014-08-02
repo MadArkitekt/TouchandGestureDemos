@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8E0EDF0E-3400-4CBF-8694-1D3EBB0ACF5B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DraggableView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F22CA829-D699-4EB4-8137-B2B1705C3F0B</key>
+		<string>https://github.com/MadArkitekt/TouchandGestureDemos.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DraggableView/DraggableView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F22CA829-D699-4EB4-8137-B2B1705C3F0B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MadArkitekt/TouchandGestureDemos.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F22CA829-D699-4EB4-8137-B2B1705C3F0B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F22CA829-D699-4EB4-8137-B2B1705C3F0B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TouchandGestureDemos</string>
+		</dict>
+	</array>
+</dict>
+</plist>
