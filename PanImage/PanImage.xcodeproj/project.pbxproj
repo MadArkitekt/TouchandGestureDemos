@@ -44,6 +44,7 @@
 		0D70C8841967D1690068CF18 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
 		0DB678F4196846310099BE46 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utility.h; path = ../../Utility.h; sourceTree = "<group>"; };
 		0DEBB6CD1968F47100C16A87 /* blur@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blur@2x.png"; path = "PanImage/blur@2x.png"; sourceTree = "<group>"; };
+		5E9A458119AD5C9100FCCCE3 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				0DB678F4196846310099BE46 /* Utility.h */,
+				5E9A458119AD5C9100FCCCE3 /* PrefixHeader.pch */,
 				0D70C8611967CFA10068CF18 /* Info.plist */,
 				0D70C8621967CFA10068CF18 /* main.m */,
 			);
