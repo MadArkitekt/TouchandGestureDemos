@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  PanImage
+//  PanGestureRecognizer
 //
-//  Created by Edward Salter on 8/30/14.
+//  Created by Edward Salter on 8/29/14.
 //  Copyright (c) 2014 Edward Salter. All rights reserved.
 //
 

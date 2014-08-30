@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>PanImage.xcscheme</key>
+		<key>PanGestureRecognizer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5E83A3B119B18D5800D5466D</key>
+		<key>5EE51A9519B13246004FC23C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5E83A3C119B18D5800D5466D</key>
+		<key>5EE51AAB19B13246004FC23C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

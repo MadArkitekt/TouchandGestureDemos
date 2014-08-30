@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  PanView.h
 //  PanImage
 //
 //  Created by Edward Salter on 8/30/14.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface PanView : UIImageView
 
 @end
-

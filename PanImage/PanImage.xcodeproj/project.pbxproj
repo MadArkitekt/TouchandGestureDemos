@@ -7,55 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D70C8631967CFA10068CF18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C8621967CFA10068CF18 /* main.m */; };
-		0D70C8661967CFA10068CF18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C8651967CFA10068CF18 /* AppDelegate.m */; };
-		0D70C8681967CFA10068CF18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D70C8671967CFA10068CF18 /* Images.xcassets */; };
-		0D70C8741967CFA10068CF18 /* PanImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C8731967CFA10068CF18 /* PanImageTests.m */; };
-		0D70C8811967D14B0068CF18 /* PanImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C8801967D14B0068CF18 /* PanImage.m */; };
-		0D70C8821967D14B0068CF18 /* PanImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C8801967D14B0068CF18 /* PanImage.m */; };
-		0D70C8851967D1690068CF18 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C8841967D1690068CF18 /* MainVC.m */; };
-		0D70C8861967D1690068CF18 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70C8841967D1690068CF18 /* MainVC.m */; };
-		0DEBB6CE1968F47100C16A87 /* blur@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DEBB6CD1968F47100C16A87 /* blur@2x.png */; };
+		5E83A3B819B18D5800D5466D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83A3B719B18D5800D5466D /* main.m */; };
+		5E83A3BB19B18D5800D5466D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83A3BA19B18D5800D5466D /* AppDelegate.m */; };
+		5E83A3BD19B18D5800D5466D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E83A3BC19B18D5800D5466D /* Images.xcassets */; };
+		5E83A3C919B18D5800D5466D /* PanImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83A3C819B18D5800D5466D /* PanImageTests.m */; };
+		5E83A3D419B18D7F00D5466D /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83A3D319B18D7F00D5466D /* RootVC.m */; };
+		5E83A3D719B18EC200D5466D /* PanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E83A3D619B18EC200D5466D /* PanView.m */; };
+		5E83A3D919B1944800D5466D /* orangeFlower.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E83A3D819B1944800D5466D /* orangeFlower.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0D70C86E1967CFA10068CF18 /* PBXContainerItemProxy */ = {
+		5E83A3C319B18D5800D5466D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0D70C8551967CFA10068CF18 /* Project object */;
+			containerPortal = 5E83A3AA19B18D5800D5466D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0D70C85C1967CFA10068CF18;
+			remoteGlobalIDString = 5E83A3B119B18D5800D5466D;
 			remoteInfo = PanImage;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D70C85D1967CFA10068CF18 /* PanImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D70C8611967CFA10068CF18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D70C8621967CFA10068CF18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0D70C8641967CFA10068CF18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0D70C8651967CFA10068CF18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0D70C8671967CFA10068CF18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0D70C86D1967CFA10068CF18 /* PanImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D70C8721967CFA10068CF18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D70C8731967CFA10068CF18 /* PanImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanImageTests.m; sourceTree = "<group>"; };
-		0D70C87F1967D14B0068CF18 /* PanImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanImage.h; sourceTree = "<group>"; };
-		0D70C8801967D14B0068CF18 /* PanImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanImage.m; sourceTree = "<group>"; };
-		0D70C8831967D1690068CF18 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
-		0D70C8841967D1690068CF18 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
-		0DB678F4196846310099BE46 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utility.h; path = ../../Utility.h; sourceTree = "<group>"; };
-		0DEBB6CD1968F47100C16A87 /* blur@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blur@2x.png"; path = "PanImage/blur@2x.png"; sourceTree = "<group>"; };
-		5E9A458119AD5C9100FCCCE3 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5E83A3B219B18D5800D5466D /* PanImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E83A3B619B18D5800D5466D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E83A3B719B18D5800D5466D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E83A3B919B18D5800D5466D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E83A3BA19B18D5800D5466D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E83A3BC19B18D5800D5466D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E83A3C219B18D5800D5466D /* PanImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E83A3C719B18D5800D5466D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E83A3C819B18D5800D5466D /* PanImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanImageTests.m; sourceTree = "<group>"; };
+		5E83A3D219B18D7F00D5466D /* RootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootVC.h; sourceTree = "<group>"; };
+		5E83A3D319B18D7F00D5466D /* RootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootVC.m; sourceTree = "<group>"; };
+		5E83A3D519B18EC200D5466D /* PanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanView.h; sourceTree = "<group>"; };
+		5E83A3D619B18EC200D5466D /* PanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanView.m; sourceTree = "<group>"; };
+		5E83A3D819B1944800D5466D /* orangeFlower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeFlower.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0D70C85A1967CFA10068CF18 /* Frameworks */ = {
+		5E83A3AF19B18D5800D5466D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0D70C86A1967CFA10068CF18 /* Frameworks */ = {
+		5E83A3BF19B18D5800D5466D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,64 +61,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D70C8541967CFA10068CF18 = {
+		5E83A3A919B18D5800D5466D = {
 			isa = PBXGroup;
 			children = (
-				0DEBB6CD1968F47100C16A87 /* blur@2x.png */,
-				0D70C85F1967CFA10068CF18 /* PanImage */,
-				0D70C8701967CFA10068CF18 /* PanImageTests */,
-				0D70C85E1967CFA10068CF18 /* Products */,
+				5E83A3B419B18D5800D5466D /* PanImage */,
+				5E83A3C519B18D5800D5466D /* PanImageTests */,
+				5E83A3B319B18D5800D5466D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0D70C85E1967CFA10068CF18 /* Products */ = {
+		5E83A3B319B18D5800D5466D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D70C85D1967CFA10068CF18 /* PanImage.app */,
-				0D70C86D1967CFA10068CF18 /* PanImageTests.xctest */,
+				5E83A3B219B18D5800D5466D /* PanImage.app */,
+				5E83A3C219B18D5800D5466D /* PanImageTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0D70C85F1967CFA10068CF18 /* PanImage */ = {
+		5E83A3B419B18D5800D5466D /* PanImage */ = {
 			isa = PBXGroup;
 			children = (
-				0D70C8641967CFA10068CF18 /* AppDelegate.h */,
-				0D70C8651967CFA10068CF18 /* AppDelegate.m */,
-				0D70C8831967D1690068CF18 /* MainVC.h */,
-				0D70C8841967D1690068CF18 /* MainVC.m */,
-				0D70C87F1967D14B0068CF18 /* PanImage.h */,
-				0D70C8801967D14B0068CF18 /* PanImage.m */,
-				0D70C8671967CFA10068CF18 /* Images.xcassets */,
-				0D70C8601967CFA10068CF18 /* Supporting Files */,
+				5E83A3B919B18D5800D5466D /* AppDelegate.h */,
+				5E83A3BA19B18D5800D5466D /* AppDelegate.m */,
+				5E83A3D219B18D7F00D5466D /* RootVC.h */,
+				5E83A3D319B18D7F00D5466D /* RootVC.m */,
+				5E83A3D519B18EC200D5466D /* PanView.h */,
+				5E83A3D619B18EC200D5466D /* PanView.m */,
+				5E83A3D819B1944800D5466D /* orangeFlower.png */,
+				5E83A3BC19B18D5800D5466D /* Images.xcassets */,
+				5E83A3B519B18D5800D5466D /* Supporting Files */,
 			);
 			path = PanImage;
 			sourceTree = "<group>";
 		};
-		0D70C8601967CFA10068CF18 /* Supporting Files */ = {
+		5E83A3B519B18D5800D5466D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0DB678F4196846310099BE46 /* Utility.h */,
-				5E9A458119AD5C9100FCCCE3 /* PrefixHeader.pch */,
-				0D70C8611967CFA10068CF18 /* Info.plist */,
-				0D70C8621967CFA10068CF18 /* main.m */,
+				5E83A3B619B18D5800D5466D /* Info.plist */,
+				5E83A3B719B18D5800D5466D /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0D70C8701967CFA10068CF18 /* PanImageTests */ = {
+		5E83A3C519B18D5800D5466D /* PanImageTests */ = {
 			isa = PBXGroup;
 			children = (
-				0D70C8731967CFA10068CF18 /* PanImageTests.m */,
-				0D70C8711967CFA10068CF18 /* Supporting Files */,
+				5E83A3C819B18D5800D5466D /* PanImageTests.m */,
+				5E83A3C619B18D5800D5466D /* Supporting Files */,
 			);
 			path = PanImageTests;
 			sourceTree = "<group>";
 		};
-		0D70C8711967CFA10068CF18 /* Supporting Files */ = {
+		5E83A3C619B18D5800D5466D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0D70C8721967CFA10068CF18 /* Info.plist */,
+				5E83A3C719B18D5800D5466D /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -130,13 +124,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0D70C85C1967CFA10068CF18 /* PanImage */ = {
+		5E83A3B119B18D5800D5466D /* PanImage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D70C8771967CFA10068CF18 /* Build configuration list for PBXNativeTarget "PanImage" */;
+			buildConfigurationList = 5E83A3CC19B18D5800D5466D /* Build configuration list for PBXNativeTarget "PanImage" */;
 			buildPhases = (
-				0D70C8591967CFA10068CF18 /* Sources */,
-				0D70C85A1967CFA10068CF18 /* Frameworks */,
-				0D70C85B1967CFA10068CF18 /* Resources */,
+				5E83A3AE19B18D5800D5466D /* Sources */,
+				5E83A3AF19B18D5800D5466D /* Frameworks */,
+				5E83A3B019B18D5800D5466D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,74 +138,74 @@
 			);
 			name = PanImage;
 			productName = PanImage;
-			productReference = 0D70C85D1967CFA10068CF18 /* PanImage.app */;
+			productReference = 5E83A3B219B18D5800D5466D /* PanImage.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0D70C86C1967CFA10068CF18 /* PanImageTests */ = {
+		5E83A3C119B18D5800D5466D /* PanImageTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D70C87A1967CFA10068CF18 /* Build configuration list for PBXNativeTarget "PanImageTests" */;
+			buildConfigurationList = 5E83A3CF19B18D5800D5466D /* Build configuration list for PBXNativeTarget "PanImageTests" */;
 			buildPhases = (
-				0D70C8691967CFA10068CF18 /* Sources */,
-				0D70C86A1967CFA10068CF18 /* Frameworks */,
-				0D70C86B1967CFA10068CF18 /* Resources */,
+				5E83A3BE19B18D5800D5466D /* Sources */,
+				5E83A3BF19B18D5800D5466D /* Frameworks */,
+				5E83A3C019B18D5800D5466D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0D70C86F1967CFA10068CF18 /* PBXTargetDependency */,
+				5E83A3C419B18D5800D5466D /* PBXTargetDependency */,
 			);
 			name = PanImageTests;
 			productName = PanImageTests;
-			productReference = 0D70C86D1967CFA10068CF18 /* PanImageTests.xctest */;
+			productReference = 5E83A3C219B18D5800D5466D /* PanImageTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0D70C8551967CFA10068CF18 /* Project object */ = {
+		5E83A3AA19B18D5800D5466D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
-				ORGANIZATIONNAME = "The IronhEaD Initiative";
+				ORGANIZATIONNAME = "Edward Salter";
 				TargetAttributes = {
-					0D70C85C1967CFA10068CF18 = {
+					5E83A3B119B18D5800D5466D = {
 						CreatedOnToolsVersion = 6.0;
 					};
-					0D70C86C1967CFA10068CF18 = {
+					5E83A3C119B18D5800D5466D = {
 						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 0D70C85C1967CFA10068CF18;
+						TestTargetID = 5E83A3B119B18D5800D5466D;
 					};
 				};
 			};
-			buildConfigurationList = 0D70C8581967CFA10068CF18 /* Build configuration list for PBXProject "PanImage" */;
+			buildConfigurationList = 5E83A3AD19B18D5800D5466D /* Build configuration list for PBXProject "PanImage" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0D70C8541967CFA10068CF18;
-			productRefGroup = 0D70C85E1967CFA10068CF18 /* Products */;
+			mainGroup = 5E83A3A919B18D5800D5466D;
+			productRefGroup = 5E83A3B319B18D5800D5466D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D70C85C1967CFA10068CF18 /* PanImage */,
-				0D70C86C1967CFA10068CF18 /* PanImageTests */,
+				5E83A3B119B18D5800D5466D /* PanImage */,
+				5E83A3C119B18D5800D5466D /* PanImageTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0D70C85B1967CFA10068CF18 /* Resources */ = {
+		5E83A3B019B18D5800D5466D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D70C8681967CFA10068CF18 /* Images.xcassets in Resources */,
-				0DEBB6CE1968F47100C16A87 /* blur@2x.png in Resources */,
+				5E83A3D919B1944800D5466D /* orangeFlower.png in Resources */,
+				5E83A3BD19B18D5800D5466D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0D70C86B1967CFA10068CF18 /* Resources */ = {
+		5E83A3C019B18D5800D5466D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -221,39 +215,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0D70C8591967CFA10068CF18 /* Sources */ = {
+		5E83A3AE19B18D5800D5466D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D70C8661967CFA10068CF18 /* AppDelegate.m in Sources */,
-				0D70C8851967D1690068CF18 /* MainVC.m in Sources */,
-				0D70C8811967D14B0068CF18 /* PanImage.m in Sources */,
-				0D70C8631967CFA10068CF18 /* main.m in Sources */,
+				5E83A3D419B18D7F00D5466D /* RootVC.m in Sources */,
+				5E83A3BB19B18D5800D5466D /* AppDelegate.m in Sources */,
+				5E83A3D719B18EC200D5466D /* PanView.m in Sources */,
+				5E83A3B819B18D5800D5466D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0D70C8691967CFA10068CF18 /* Sources */ = {
+		5E83A3BE19B18D5800D5466D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D70C8861967D1690068CF18 /* MainVC.m in Sources */,
-				0D70C8741967CFA10068CF18 /* PanImageTests.m in Sources */,
-				0D70C8821967D14B0068CF18 /* PanImage.m in Sources */,
+				5E83A3C919B18D5800D5466D /* PanImageTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0D70C86F1967CFA10068CF18 /* PBXTargetDependency */ = {
+		5E83A3C419B18D5800D5466D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0D70C85C1967CFA10068CF18 /* PanImage */;
-			targetProxy = 0D70C86E1967CFA10068CF18 /* PBXContainerItemProxy */;
+			target = 5E83A3B119B18D5800D5466D /* PanImage */;
+			targetProxy = 5E83A3C319B18D5800D5466D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0D70C8751967CFA10068CF18 /* Debug */ = {
+		5E83A3CA19B18D5800D5466D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,14 +280,13 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				METAL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		0D70C8761967CFA10068CF18 /* Release */ = {
+		5E83A3CB19B18D5800D5466D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -324,43 +315,38 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				METAL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		0D70C8781967CFA10068CF18 /* Debug */ = {
+		5E83A3CD19B18D5800D5466D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PREFIX_HEADER = /Users/ecs2120/Desktop/TouchandGestureDemos/PanImage/PanImage/PrefixHeader.pch;
 				INFOPLIST_FILE = PanImage/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		0D70C8791967CFA10068CF18 /* Release */ = {
+		5E83A3CE19B18D5800D5466D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PREFIX_HEADER = /Users/ecs2120/Desktop/TouchandGestureDemos/PanImage/PanImage/PrefixHeader.pch;
 				INFOPLIST_FILE = PanImage/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		0D70C87B1967CFA10068CF18 /* Debug */ = {
+		5E83A3D019B18D5800D5466D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PanImage.app/PanImage";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -370,62 +356,56 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = PanImageTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanImage.app/PanImage";
 			};
 			name = Debug;
 		};
-		0D70C87C1967CFA10068CF18 /* Release */ = {
+		5E83A3D119B18D5800D5466D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PanImage.app/PanImage";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = PanImageTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanImage.app/PanImage";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D70C8581967CFA10068CF18 /* Build configuration list for PBXProject "PanImage" */ = {
+		5E83A3AD19B18D5800D5466D /* Build configuration list for PBXProject "PanImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D70C8751967CFA10068CF18 /* Debug */,
-				0D70C8761967CFA10068CF18 /* Release */,
+				5E83A3CA19B18D5800D5466D /* Debug */,
+				5E83A3CB19B18D5800D5466D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D70C8771967CFA10068CF18 /* Build configuration list for PBXNativeTarget "PanImage" */ = {
+		5E83A3CC19B18D5800D5466D /* Build configuration list for PBXNativeTarget "PanImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D70C8781967CFA10068CF18 /* Debug */,
-				0D70C8791967CFA10068CF18 /* Release */,
+				5E83A3CD19B18D5800D5466D /* Debug */,
+				5E83A3CE19B18D5800D5466D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		0D70C87A1967CFA10068CF18 /* Build configuration list for PBXNativeTarget "PanImageTests" */ = {
+		5E83A3CF19B18D5800D5466D /* Build configuration list for PBXNativeTarget "PanImageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D70C87B1967CFA10068CF18 /* Debug */,
-				0D70C87C1967CFA10068CF18 /* Release */,
+				5E83A3D019B18D5800D5466D /* Debug */,
+				5E83A3D119B18D5800D5466D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0D70C8551967CFA10068CF18 /* Project object */;
+	rootObject = 5E83A3AA19B18D5800D5466D /* Project object */;
 }

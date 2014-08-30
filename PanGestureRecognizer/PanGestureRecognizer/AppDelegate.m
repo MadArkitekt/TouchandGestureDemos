@@ -1,13 +1,13 @@
 //
 //  AppDelegate.m
-//  PanImage
+//  PanGestureRecognizer
 //
-//  Created by Edward Salter on 8/30/14.
+//  Created by Edward Salter on 8/29/14.
 //  Copyright (c) 2014 Edward Salter. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "RootVC.h"
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,10 +16,10 @@
             
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    RootVC *rootVC = [[RootVC alloc]init];
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    ViewController *rootVC = [[ViewController alloc]init];
     self.window.rootViewController = rootVC;
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor blackColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
