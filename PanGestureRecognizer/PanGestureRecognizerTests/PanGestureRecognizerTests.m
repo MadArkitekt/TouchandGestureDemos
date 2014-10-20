@@ -1,19 +1,19 @@
 //
-//  PanImageTests.m
-//  PanImageTests
+//  PanGestureRecognizerTests.m
+//  PanGestureRecognizerTests
 //
-//  Created by Edward Salter on 8/30/14.
+//  Created by Edward Salter on 8/29/14.
 //  Copyright (c) 2014 Edward Salter. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface PanImageTests : XCTestCase
+@interface PanGestureRecognizerTests : XCTestCase
 
 @end
 
-@implementation PanImageTests
+@implementation PanGestureRecognizerTests
 
 - (void)setUp {
     [super setUp];

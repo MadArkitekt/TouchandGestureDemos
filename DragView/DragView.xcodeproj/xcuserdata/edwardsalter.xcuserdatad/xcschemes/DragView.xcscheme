@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5E83A3B119B18D5800D5466D"
-               BuildableName = "PanImage.app"
-               BlueprintName = "PanImage"
-               ReferencedContainer = "container:PanImage.xcodeproj">
+               BlueprintIdentifier = "5E9A45B919AD5DC400FCCCE3"
+               BuildableName = "DragView.app"
+               BlueprintName = "DragView"
+               ReferencedContainer = "container:DragView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5E83A3C119B18D5800D5466D"
-               BuildableName = "PanImageTests.xctest"
-               BlueprintName = "PanImageTests"
-               ReferencedContainer = "container:PanImage.xcodeproj">
+               BlueprintIdentifier = "5E9A45CF19AD5DC400FCCCE3"
+               BuildableName = "DragViewTests.xctest"
+               BlueprintName = "DragViewTests"
+               ReferencedContainer = "container:DragView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5E83A3C119B18D5800D5466D"
-               BuildableName = "PanImageTests.xctest"
-               BlueprintName = "PanImageTests"
-               ReferencedContainer = "container:PanImage.xcodeproj">
+               BlueprintIdentifier = "5E9A45CF19AD5DC400FCCCE3"
+               BuildableName = "DragViewTests.xctest"
+               BlueprintName = "DragViewTests"
+               ReferencedContainer = "container:DragView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5E83A3B119B18D5800D5466D"
-            BuildableName = "PanImage.app"
-            BlueprintName = "PanImage"
-            ReferencedContainer = "container:PanImage.xcodeproj">
+            BlueprintIdentifier = "5E9A45B919AD5DC400FCCCE3"
+            BuildableName = "DragView.app"
+            BlueprintName = "DragView"
+            ReferencedContainer = "container:DragView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5E83A3B119B18D5800D5466D"
-            BuildableName = "PanImage.app"
-            BlueprintName = "PanImage"
-            ReferencedContainer = "container:PanImage.xcodeproj">
+            BlueprintIdentifier = "5E9A45B919AD5DC400FCCCE3"
+            BuildableName = "DragView.app"
+            BlueprintName = "DragView"
+            ReferencedContainer = "container:DragView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5E83A3B119B18D5800D5466D"
-            BuildableName = "PanImage.app"
-            BlueprintName = "PanImage"
-            ReferencedContainer = "container:PanImage.xcodeproj">
+            BlueprintIdentifier = "5E9A45B919AD5DC400FCCCE3"
+            BuildableName = "DragView.app"
+            BlueprintName = "DragView"
+            ReferencedContainer = "container:DragView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

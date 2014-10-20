@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>PanImage.xcscheme</key>
+		<key>DragView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5E83A3B119B18D5800D5466D</key>
+		<key>5E9A45B919AD5DC400FCCCE3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5E83A3C119B18D5800D5466D</key>
+		<key>5E9A45CF19AD5DC400FCCCE3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,19 +1,19 @@
 //
-//  PanImageTests.m
-//  PanImageTests
+//  DragViewTests.m
+//  DragViewTests
 //
-//  Created by Edward Salter on 8/30/14.
+//  Created by Edward Salter on 8/26/14.
 //  Copyright (c) 2014 Edward Salter. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface PanImageTests : XCTestCase
+@interface DragViewTests : XCTestCase
 
 @end
 
-@implementation PanImageTests
+@implementation DragViewTests
 
 - (void)setUp {
     [super setUp];
