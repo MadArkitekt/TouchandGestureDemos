@@ -8,8 +8,7 @@
 
 #import "DragView.h"
 
-@implementation DragView
-{
+@implementation DragView {
     CGPoint startCoord;
 }
 
@@ -23,28 +22,28 @@
     return self;
 }
 
-#pragma mark TOUCHES_BEGAN
--(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+#pragma mark TOUCH-RELATED
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     startCoord = [[touches anyObject]locationInView:self];
     [self.superview bringSubviewToFront:self];
 }
 
-#pragma mark TOUCHES_MOVED
--(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
     CGPoint point = [[touches anyObject]locationInView:self];
     float dx = point.x - startCoord.x;
     
-    NSLog(@"Start.x: %f", startCoord.x);
-    NSLog(@"Touch.x: %f",point.x);
-    NSLog(@"Delta.x: %f",dx);
-    NSLog(@"Origin.x: %f", self.bounds.origin.x);
+    NSLog(@"START X :: %f", startCoord.x);
+    NSLog(@"TOUCH X :: %f",point.x);
+    NSLog(@"DELTA X :: %f",dx);
+    NSLog(@"ORIGIN X :: %f", self.bounds.origin.x);
 
     float dy = point.y - startCoord.y;
     
-    NSLog(@"Start.y: %f", startCoord.y);
-    NSLog(@"Touch.y: %f",point.y);
-    NSLog(@"Delta.y: %f",dy);
-    NSLog(@"Origin.y: %f", self.bounds.origin.y);
+    NSLog(@"START Y :: %f", startCoord.y);
+    NSLog(@"TOUCH Y :: %f",point.y);
+    NSLog(@"DELTA Y :: %f",dy);
+    NSLog(@"ORIGIN Y :: %f", self.bounds.origin.y);
     
     CGPoint centerNew = CGPointMake(self.center.x + dx, self.center.y + dy);
     self.center = centerNew;
